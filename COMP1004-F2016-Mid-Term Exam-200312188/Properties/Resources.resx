@@ -148,16 +148,16 @@
   <data name="Halfling_Male" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\halfling-male.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Drwaf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Drwaf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Elf" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Elf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="human" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Human" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\human.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Dwarf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Drwaf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lizard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

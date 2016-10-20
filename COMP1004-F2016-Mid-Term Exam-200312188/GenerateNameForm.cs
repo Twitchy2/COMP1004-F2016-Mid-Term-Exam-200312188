@@ -33,9 +33,13 @@ namespace COMP1004_F2016_Mid_Term_Exam_200312188
 
             //This should hopeuflly take the random and make it important
             _rnd = new Random();
+            //finds a random INDEX via the random in ITEMS
             int randomNumber = _rnd.Next(FirstNameListBox.Items.Count);
+            //SELECTS THAT
             FirstNameListBox.Select();
+            //SETS THE SELECTED INDEX AS THE SELECTED ITEM
             FirstNameListBox.SelectedItem = FirstNameListBox.Items[randomNumber];
+            //Prints
             textBox1.Text = FirstNameListBox.SelectedItem.ToString();
 
 
@@ -56,6 +60,7 @@ namespace COMP1004_F2016_Mid_Term_Exam_200312188
         /// <param name="e"></param>
         private void GenerateButton_Click(object sender, EventArgs e)
         {
+            //calls method and sets name as the text boxes
             GenerateName();
             Program.character.lastName = LastNameTextBox.Text;
             Program.character.FirstName = textBox1.Text;
@@ -75,6 +80,7 @@ namespace COMP1004_F2016_Mid_Term_Exam_200312188
             AbilityGeneratorForm AbilityForm = new AbilityGeneratorForm();
             AbilityForm.Show();
             this.Hide();
+            
         }
     }
 }

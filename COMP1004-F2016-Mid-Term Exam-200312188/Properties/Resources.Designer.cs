@@ -73,9 +73,9 @@ namespace COMP1004_F2016_Mid_Term_Exam_200312188.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Drwaf {
+        internal static System.Drawing.Bitmap Dwarf {
             get {
-                object obj = ResourceManager.GetObject("Drwaf", resourceCulture);
+                object obj = ResourceManager.GetObject("Dwarf", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace COMP1004_F2016_Mid_Term_Exam_200312188.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap human {
+        internal static System.Drawing.Bitmap Human {
             get {
-                object obj = ResourceManager.GetObject("human", resourceCulture);
+                object obj = ResourceManager.GetObject("Human", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace COMP1004_F2016_Mid_Term_Exam_200312188.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap lizard {
+        internal static System.Drawing.Bitmap Lizard {
             get {
-                object obj = ResourceManager.GetObject("lizard", resourceCulture);
+                object obj = ResourceManager.GetObject("Lizard", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

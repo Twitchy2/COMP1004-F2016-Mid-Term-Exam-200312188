@@ -82,5 +82,21 @@ namespace COMP1004_F2016_Mid_Term_Exam_200312188
             this.Hide();
             
         }
+        /// <summary>
+        /// Changes the firstName if you select it yourself
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void FirstNameListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            textBox1.Text = FirstNameListBox.SelectedItem.ToString();
+            Program.character.FirstName = textBox1.Text;
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            LastNameTextBox.Text = listBox1.SelectedItem.ToString();
+            Program.character.lastName = LastNameTextBox.Text;
+        }
     }
 }

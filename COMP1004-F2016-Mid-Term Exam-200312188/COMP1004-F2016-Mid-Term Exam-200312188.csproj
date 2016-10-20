@@ -103,6 +103,12 @@
     <Compile Include="RaceAndClassForm.Designer.cs">
       <DependentUpon>RaceAndClassForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AbilityGeneratorForm.resx">
       <DependentUpon>AbilityGeneratorForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -127,6 +133,9 @@
     </Compile>
     <EmbeddedResource Include="RaceAndClassForm.resx">
       <DependentUpon>RaceAndClassForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassDiagram.cd" />
     <None Include="packages.config" />
@@ -156,14 +165,19 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\dinvity.jpg" />
+    <None Include="Resources\Drwaf.jpg" />
     <Content Include="Resources\Dwarf-Female.jpg" />
     <Content Include="Resources\Dwarf-Male.jpg" />
     <Content Include="Resources\Elf-Female.jpg" />
     <Content Include="Resources\Elf-Male.jpg" />
+    <None Include="Resources\Elf.jpg" />
     <Content Include="Resources\Halfling-Female.jpg" />
     <Content Include="Resources\Halfling-Male.jpg" />
     <Content Include="Resources\Human-Female.jpg" />
     <Content Include="Resources\Human-Male.jpg" />
+    <None Include="Resources\human.png" />
+    <None Include="Resources\lizard.jpg" />
     <Content Include="Resources\splashSceen.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
